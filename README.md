@@ -2,7 +2,7 @@
 Unit tests with ruby for ArchDaily
 # Requirements
 * Linux preferrably, due to the nature of ruby being troublesome under Windows, although it will work if set up correctly.
-* Ruby 2.7.0 (Please use rbenv for a better experience!) 
+* Ruby 2.7.1 (Please use rbenv for a better experience!) 
 
 # How to test?
 1. Open a terminal
