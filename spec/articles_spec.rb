@@ -21,7 +21,7 @@ describe Article do
 
   scenario1 = JSON.parse(scenario)
   context "Given scenario 1" do
-    it "returns [345048]" do
+    it "must return [345048]" do
     	article = Article.new
     	message = article.recommended(scenario1)
       expect(message).to eq([345048])
@@ -100,7 +100,7 @@ describe Article do
 
   scenario2 = JSON.parse(scenario)
   context "Given scenario 2" do
-    it "returns [790952, 103678, 788138, 802358]" do
+    it "must return [790952, 103678, 788138, 802358]" do
     	article = Article.new
     	message = article.recommended(scenario2)
       expect(message).to eq([790952, 103678, 788138, 802358])
@@ -144,7 +144,7 @@ scenario =
 
   scenario3 = JSON.parse(scenario)
   context "Given scenario 3" do
-    it "returns [103678, 790952, 802358, 788138]" do
+    it "must return [103678, 790952, 802358, 788138]" do
     	article = Article.new
     	message = article.recommended(scenario3)
       expect(message).to eq([103678, 790952, 802358, 788138])
@@ -205,7 +205,7 @@ scenario =
 
   scenario4 = JSON.parse(scenario)
   context "Given scenario 4" do
-    it "returns [790952, 103678, 802358, 562873]" do
+    it "must return [790952, 103678, 802358, 562873]" do
     	article = Article.new
     	message = article.recommended(scenario4)
       expect(message).to eq([790952, 103678, 802358, 562873])
