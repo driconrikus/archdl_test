@@ -18,7 +18,7 @@ while(continue)
 			file = File.read("scenarios/scenario#{option}.json")
 			data_hash = JSON.parse(file)
 			article = Article.new
-			article.recomended(data_hash)
+			article.recommended(data_hash)
             puts ""
 		when 5 then
 			system('bundle exec rspec')
