@@ -1,7 +1,8 @@
 # archdl_test
-Unit tests with ruby for ArchDaily
+Solving the picking problem. (Unit tests with ruby for ArchDaily)
+
 # Requirements
-* Linux preferrably, due to the nature of ruby being troublesome under Windows, although it will work if set up correctly.
+* Linux preferably, due to the nature of ruby being troublesome under Windows, although it will work if set up correctly.
 * Ruby 2.7.1 (Please use rbenv for a better experience!) 
 
 # How to test?
