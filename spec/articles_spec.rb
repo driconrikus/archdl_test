@@ -144,7 +144,7 @@ scenario =
 
   scenario3 = JSON.parse(scenario)
   context "Given scenario 3" do
-    it "returns [345048]" do
+    it "returns [103678, 790952, 802358, 788138]" do
     	article = Article.new
     	message = article.recommended(scenario3)
       expect(message).to eq([103678, 790952, 802358, 788138])
