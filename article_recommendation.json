@@ -85,7 +85,6 @@
 
 
 // Scenario 3
-
 // {
 //   "content": [
 //     {
@@ -120,7 +119,6 @@
 // }
 
 // Scenario 4
-
 // {
 //   "logs": [
 //     {
@@ -170,40 +168,4 @@
 //   ],
 //   "myad": [
 //   ]
-// }
-
-
-// Scenario 6  (No recommended articles)
-
-// {
-//   "logs": [],
-//   "content": [],
-//   "myad": [
-//   ]
-// }
-
-
-// Scenario 7  
-
-// {
-//   "logs": [{
-//       "url": "//www.archdaily.com/103678/riva-del-garda-hospital-atenastudio",
-//       "token": "111",
-//       "thumbnail": "//images.adsttc.com/media/images/55f6/f706/adbc/0139/a000/02ed/small_jpg/4-325.jpg?1442248427",
-//       "title": "Re-Development of the Former Hospital/ the New Housing City / ATENASTUDIO + 3TI PROGETTI ITALIA + KREJ ENGINEERING"
-//     },
-//   {
-//       "url": "//www.archdaily.com/103678/riva-del-garda-hospital-atenastudio",
-//       "token": "222",
-//       "thumbnail": "//images.adsttc.com/media/images/55f6/f706/adbc/0139/a000/02ed/small_jpg/4-325.jpg?1442248427",
-//       "title": "Re-Development of the Former Hospital/ the New Housing City / ATENASTUDIO + 3TI PROGETTI ITALIA + KREJ ENGINEERING"
-//     },
-//   {
-//       "url": "//www.archdaily.com/103678/riva-del-garda-hospital-atenastudio",
-//       "token": "333",
-//       "thumbnail": "//images.adsttc.com/media/images/55f6/f706/adbc/0139/a000/02ed/small_jpg/4-325.jpg?1442248427",
-//       "title": "Re-Development of the Former Hospital/ the New Housing City / ATENASTUDIO + 3TI PROGETTI ITALIA + KREJ ENGINEERING"
-//     }],
-//   "content": [],
-//   "myad": []
 // }
