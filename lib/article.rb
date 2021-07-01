@@ -16,7 +16,7 @@ class Article
 				articles_array = articles_array.select{|element| element[1].present?}
 				recomended(articles_array,index+1)
 			else
-				p @final_articles.map{|art| art['token'].to_i}
+				p @final_articles.map{|article| article['token'].to_i}
 			end
 	end
 
